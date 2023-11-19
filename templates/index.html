@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>My Library</h1>
-    {% if not books == [] %}
+    {% if not books %}
     <p>This library is empty.</p>
     {% else %}
       {% for book in books %}
